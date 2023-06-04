@@ -84,9 +84,9 @@ int main(){
                 ifstream of2;
                 of2.open("file.txt");
                 
-                cout<< "Enter the Username: "<<endl;
+                cout<< "Enter the Username: ";
                 cin>>user;
-                cout<< "Enter a Password: "<<endl;
+                cout<< "Enter a Password: ";
                 cin>>pass;
                 
                 if(of2.is_open()){
